@@ -1,0 +1,116 @@
+body {
+  background-color: #f2f4f1; /* Soft off-white background */
+  font-family: 'Merriweather', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #00695c;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 2rem;
+  text-align: center;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); 
+  margin: 25px 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+nav h1 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.headers {
+  text-align: center;
+  color: #ffffff;
+  background-color: #004d40;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  width: 100%;
+}
+
+button {
+  padding: 15px 25px;
+  margin: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #26a69a, #80cbc4);
+  max-width: 200px;
+  width: 100%;
+}
+
+button:hover {
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+
+.happy { background-color: #b2dfdb; }
+.sad { background-color: #ffcc80; }
+.anxious { background-color: #fff59d; }
+.lonely { background-color: #c8e6c9; }
+.angry { background-color: #b3e5fc; }
+.thankful { background-color: #e1bee7; }
+
+.feeling-container {
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  margin-top: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  width: 100%;
+}
+
+.feeling-container:hover {
+  box-shadow: 0 12px 18px rgba(0, 0, 0, 0.25);
+}
+
+blockquote {
+  font-style: italic;
+  color: #00796b;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  button {
+    max-width: 100%;
+  }
+
+  .feeling-container, .headers, nav, .button-container {
+    width: 100%;
+  }
+}
+
+.back {
+  color: #00796b;
+  font-weight: lighter;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
